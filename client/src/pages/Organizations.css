@@ -1,0 +1,190 @@
+.organizations-page {
+  background: #fafcfb;
+  min-height: 100vh;
+}
+
+
+/* HEADER */
+
+.organizations-header {
+  background: #eef6f1;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.organizations-header p {
+  color: #39765c;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.organizations-header h1 {
+  color: #173f32;
+  font-size: 45px;
+  margin: 15px 0;
+}
+
+.organizations-header span {
+  color: #6b756f;
+  font-size: 17px;
+}
+
+
+/* CONTENT */
+
+.organizations-content {
+  width: 1200px;
+  max-width: 90%;
+  margin: auto;
+  padding: 60px 0;
+}
+
+
+/* FILTER */
+
+.filter-bar {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 35px;
+}
+
+.filter-bar select {
+  padding: 13px 18px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: white;
+}
+
+
+/* CARDS */
+
+.organization-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.organization-card {
+  background: white;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 28px;
+
+  transition: 0.2s;
+}
+
+.organization-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+}
+
+.organization-icon {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.organization-type {
+  display: inline-block;
+
+  background: #eef6f1;
+  color: #39765c;
+
+  padding: 6px 10px;
+  border-radius: 4px;
+
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.organization-card h2 {
+  color: #173f32;
+  font-size: 22px;
+  margin: 15px 0 10px;
+}
+
+.district {
+  color: #555;
+  font-size: 14px;
+}
+
+.description {
+  color: #777;
+  line-height: 1.6;
+  margin: 15px 0 25px;
+}
+
+.org-link {
+  color: #1d654d;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.org-link:hover {
+  text-decoration: underline;
+}
+
+.meta-info {
+  color: #777;
+  font-size: 13px;
+  margin-top: 6px !important;
+}
+
+.view-button {
+  display: inline-block;
+
+  color: #1d654d !important;
+  text-decoration: none;
+
+  font-weight: bold;
+  margin-top: 12px !important;
+}
+
+.view-button:hover {
+  text-decoration: underline;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 850px) {
+
+  .organization-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+@media (max-width: 550px) {
+
+  .organization-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .filter-bar {
+    flex-direction: column;
+  }
+
+}
+.selected-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  margin-top: 25px;
+}
+
+.selected-search span {
+  background: white;
+
+  padding: 10px 15px;
+
+  border: 1px solid #dce7e1;
+
+  border-radius: 5px;
+
+  color: #39765c;
+
+  font-size: 14px;
+}

@@ -1,0 +1,52 @@
+.about-page {
+  background: #fafcfb;
+  min-height: 100vh;
+}
+
+.about-header {
+  background: #eef6f1;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.about-header p {
+  color: #39765c;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.about-header h1 {
+  color: #173f32;
+  font-size: 40px;
+  margin: 15px 0;
+}
+
+.about-header span {
+  color: #6b756f;
+  font-size: 17px;
+}
+
+.about-content {
+  width: 800px;
+  max-width: 90%;
+  margin: auto;
+  padding: 50px 0 80px;
+  color: #444;
+  line-height: 1.7;
+}
+
+.about-content h2 {
+  color: #173f32;
+  margin: 28px 0 12px;
+  font-size: 22px;
+}
+
+.about-content ol,
+.about-content ul {
+  padding-left: 22px;
+}
+
+.about-content li {
+  margin-bottom: 8px;
+}
