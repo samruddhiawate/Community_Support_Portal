@@ -1,5 +1,7 @@
 # Community Support Portal
 
+**MERN stack project** (MongoDB, Express.js, React, Node.js)
+
 A district-based directory that helps people find **real NGOs, sevashrams, shelters, and support centres** in Maharashtra. Users select a **district** and **help type**, then see matching organization cards with address, contact, source, last verified date, and an official website link when available.
 
 ---
@@ -27,11 +29,14 @@ A district-based directory that helps people find **real NGOs, sevashrams, shelt
 
 ## Tech stack
 
+This project is built with the **MERN stack**:
+
 | Layer    | Technology                          |
 |----------|-------------------------------------|
-| Frontend | React, Vite, React Router, MUI      |
-| Backend  | Node.js, Express                    |
-| Database | MongoDB (Mongoose)                  |
+| **M**ongoDB | Database (Mongoose ODM)          |
+| **E**xpress | Node.js backend API              |
+| **R**eact   | Frontend (Vite, React Router, MUI) |
+| **N**ode.js | Server runtime                   |
 
 ---
 
